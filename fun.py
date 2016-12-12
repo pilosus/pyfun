@@ -167,7 +167,6 @@ def cycle(iterable):
             yield i
 
 
-
 def firstn(iterable, n):
     """
     Return an iterable with first n elements of the proviced iterable.
@@ -223,7 +222,7 @@ def chain(*iterables):
 
 def islice(iterable=None, *args):
     """
-    Return a stream that’sl a slice of the iterator.
+    Return a stream that's a slice of the iterator.
     :param iterable: any kind of iterable object
     :param *args: is a slice object slice(start, stop[, step])
     :param start: a start index of resulting iterable
